@@ -76,6 +76,30 @@ div.campo > label {
     display: none;
 }
 
+div.campo > i {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 0px 5px;
+}
+
+div.campo > input {
+    background-color: #49a09d;
+    font-size: 1em;
+    width: 85%;
+    height: 80%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 2px 4px 6px 0px;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
+
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
